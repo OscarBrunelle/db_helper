@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DB_helper</class>
+ <widget class="QDialog" name="DB_helper">
+  <property name="geometry">
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>1133</width>
+	<height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DB Manager</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+	<rect>
+	 <x>10</x>
+	 <y>10</y>
+	 <width>981</width>
+	 <height>581</height>
+	</rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+	<property name="spacing">
+	 <number>7</number>
+	</property>
+	<property name="leftMargin">
+	 <number>10</number>
+	</property>
+	<property name="topMargin">
+	 <number>10</number>
+	</property>
+	<property name="rightMargin">
+	 <number>10</number>
+	</property>
+	<property name="bottomMargin">
+	 <number>10</number>
+	</property>
+	<item>
+	 <layout class="QFormLayout" name="formLayout">
+	  <item row="0" column="1">
+	   <widget class="QPushButton" name="searchButton">
+		<property name="text">
+		 <string>Rechercher</string>
+		</property>
+	   </widget>
+	  </item>
+	  <item row="0" column="0">
+	   <widget class="QComboBox" name="searchComboBox">
+		<item>
+		 <property name="text">
+		  <string>meeting</string>
+		 </property>
+		</item>
+		<item>
+		 <property name="text">
+		  <string>enterprise_group</string>
+		 </property>
+		</item>
+		<item>
+		 <property name="text">
+		  <string>action</string>
+		 </property>
+		</item>
+		<item>
+		 <property name="text">
+		  <string>person</string>
+		 </property>
+		</item>
+		<item>
+		 <property name="text">
+		  <string>opportunity</string>
+		 </property>
+		</item>
+		<item>
+		 <property name="text">
+		  <string>enterprise</string>
+		 </property>
+		</item>
+	   </widget>
+	  </item>
+	 </layout>
+	</item>
+	<item>
+	 <widget class="QTableWidget" name="tableWidget"/>
+	</item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
